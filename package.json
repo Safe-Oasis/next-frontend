@@ -1,0 +1,28 @@
+{
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "licenseCheck": "license-check-and-add check -f ./licenseConfig.json",
+        "license": "license-check-and-add add -f ./licenseConfig.json",
+        "prettier": "prettier --write .",
+        "format": "prettier --write \"**/*.js\" \"**/*.jsx\" \"**/*.scss\" \"**/*.css\" \"**/*.html\" \"**/*.md\""
+    },
+    "dependencies": {
+        "next": "12.3.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.23.1",
+        "eslint-config-next": "12.3.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "license-check-and-add": "^4.0.5",
+        "prettier": "^2.7.1"
+    }
+}
